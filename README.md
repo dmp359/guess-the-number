@@ -1,6 +1,6 @@
 ## Guess The Number Quick Start
 
-Dan Perlman's coding sample - a quick version of a "Guess The Number" game in React (written in about 2-3 hours).
+A small coding sample - a quick version of a "Guess The Number" game in React.
 
 To launch, run `npm install` to install dependencies and then `npm start` to launch the app.
 
