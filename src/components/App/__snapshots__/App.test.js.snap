@@ -1,0 +1,11 @@
+exports[`test renders without crashing 1`] = `
+"<div className=\"App\">
+  <div className=\"App-header\">
+    <img src=\"question.svg\" className=\"App-logo\" alt=\"logo\" />
+    <h2>
+      Guess The Number!
+    </h2>
+  </div>
+  <CTGame upper={10} lower={1} />
+</div>"
+`;

@@ -1,0 +1,6 @@
+exports[`test renders without crashing 1`] = `
+"<form className=\"form\" onSubmit={[Function: bound onSubmit]}>
+  <LabelBox label=\"Guess: \" onChange={[Function: bound handleChange]} />
+  <input type=\"submit\" value=\"Submit\" />
+</form>"
+`;

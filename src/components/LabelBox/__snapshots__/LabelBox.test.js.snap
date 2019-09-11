@@ -1,0 +1,17 @@
+exports[`test renders without crashing with all required and no optional value prop 1`] = `
+"<div>
+  <label>
+    label
+  </label>
+  <input type=\"text\" onChange={[Function: onChange]} value={[undefined]} />
+</div>"
+`;
+
+exports[`test renders without crashing with all required and one optional value prop 1`] = `
+"<div>
+  <label>
+    label
+  </label>
+  <input type=\"text\" onChange={[Function: onChange]} value=\"10\" />
+</div>"
+`;

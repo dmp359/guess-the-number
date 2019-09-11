@@ -1,0 +1,12 @@
+.window {
+  font-size: 24px;
+}
+
+.instructions {
+  padding: 8px;
+}
+
+.play-label {
+  font-weight: bold;
+  padding: 10px 0;
+}

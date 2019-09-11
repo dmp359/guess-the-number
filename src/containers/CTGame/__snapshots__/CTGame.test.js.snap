@@ -1,0 +1,131 @@
+exports[`test handles a correct guess 1`] = `
+"<div className=\"window\">
+  <div className=\"play-label\">
+    Play!
+  </div>
+  <div className=\"instructions\">
+    Guess a number between 
+    1
+     and 
+    10
+  </div>
+  <div className=\"instructions\">
+    Previous guess was 
+    5
+  </div>
+  <div className=\"instructions\">
+    You got it!
+  </div>
+  <GuessBox onSubmit={[Function: bound onGuess]} />
+  <CTConfigGame upper={10} lower={1} onReset={[Function: bound onReset]} />
+</div>"
+`;
+
+exports[`test handles a high guess 1`] = `
+"<div className=\"window\">
+  <div className=\"play-label\">
+    Play!
+  </div>
+  <div className=\"instructions\">
+    Guess a number between 
+    1
+     and 
+    10
+  </div>
+  <div className=\"instructions\">
+    Previous guess was 
+    6
+  </div>
+  <div className=\"instructions\">
+    Nope. Lower
+  </div>
+  <GuessBox onSubmit={[Function: bound onGuess]} />
+  <CTConfigGame upper={10} lower={1} onReset={[Function: bound onReset]} />
+</div>"
+`;
+
+exports[`test handles a low guess 1`] = `
+"<div className=\"window\">
+  <div className=\"play-label\">
+    Play!
+  </div>
+  <div className=\"instructions\">
+    Guess a number between 
+    1
+     and 
+    10
+  </div>
+  <div className=\"instructions\">
+    Previous guess was 
+    4
+  </div>
+  <div className=\"instructions\">
+    Nope. Higher
+  </div>
+  <GuessBox onSubmit={[Function: bound onGuess]} />
+  <CTConfigGame upper={10} lower={1} onReset={[Function: bound onReset]} />
+</div>"
+`;
+
+exports[`test renders message if exists 1`] = `
+"<div className=\"window\">
+  <div className=\"play-label\">
+    Play!
+  </div>
+  <div className=\"instructions\">
+    Guess a number between 
+    1
+     and 
+    10
+  </div>
+  <div className=\"instructions\">
+    Previous guess was 
+    none
+  </div>
+  <div className=\"instructions\">
+    test-message
+  </div>
+  <GuessBox onSubmit={[Function: bound onGuess]} />
+  <CTConfigGame upper={10} lower={1} onReset={[Function: bound onReset]} />
+</div>"
+`;
+
+exports[`test renders without crashing 1`] = `
+"<div className=\"window\">
+  <div className=\"play-label\">
+    Play!
+  </div>
+  <div className=\"instructions\">
+    Guess a number between 
+    1
+     and 
+    10
+  </div>
+  <div className=\"instructions\">
+    Previous guess was 
+    none
+  </div>
+  <GuessBox onSubmit={[Function: bound onGuess]} />
+  <CTConfigGame upper={10} lower={1} onReset={[Function: bound onReset]} />
+</div>"
+`;
+
+exports[`test resets properly 1`] = `
+"<div className=\"window\">
+  <div className=\"play-label\">
+    Play!
+  </div>
+  <div className=\"instructions\">
+    Guess a number between 
+    0
+     and 
+    100
+  </div>
+  <div className=\"instructions\">
+    Previous guess was 
+    none
+  </div>
+  <GuessBox onSubmit={[Function: bound onGuess]} />
+  <CTConfigGame upper={100} lower={0} onReset={[Function: bound onReset]} />
+</div>"
+`;

@@ -1,0 +1,12 @@
+exports[`test renders without crashing with all required props 1`] = `
+"<div className=\"config\">
+  <div className=\"config-label\">
+    Game Config
+  </div>
+  <LabelBox label=\"Lower bound: \" onChange={[Function: bound onChangeLower]} value={1} />
+  <LabelBox label=\"Upper bound: \" onChange={[Function: bound onChangeUpper]} value={10} />
+  <button onClick={[Function: bound onReset]}>
+    Reset
+  </button>
+</div>"
+`;
